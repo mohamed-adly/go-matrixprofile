@@ -1,7 +1,7 @@
 # appveyor.yml
 build: off
 
-clone_folder: c:\gopath\src\github.com\matrix-profile-foundation\go-matrixprofile
+clone_folder: c:\gopath\src\github.com\mohamed-adly\go-matrixprofile
 
 environment:
   GOPATH: c:\gopath
