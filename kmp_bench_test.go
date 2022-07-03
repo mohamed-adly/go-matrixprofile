@@ -3,7 +3,7 @@ package matrixprofile
 import (
 	"testing"
 
-	"github.com/matrix-profile-foundation/go-matrixprofile/siggen"
+	"github.com/mohamed-adly/go-matrixprofile/siggen"
 )
 
 func setupKData() [][]float64 {

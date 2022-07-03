@@ -1,0 +1,11 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+	go test -race -cover -run=Test ./...
+ 
+ok  	github.com/mohamed-adly/go-matrixprofile	1.341s	coverage: 74.6% of statements
+ok  	github.com/mohamed-adly/go-matrixprofile/av	1.152s	coverage: 84.9% of statements
+ok  	github.com/mohamed-adly/go-matrixprofile/siggen	1.222s	coverage: 98.4% of statements
+ok  	github.com/mohamed-adly/go-matrixprofile/util	1.148s	coverage: 86.5% of statements
+ 
+	go test ./... -run=NONE -bench=. -test.benchmem > new_bench.txt
+ 

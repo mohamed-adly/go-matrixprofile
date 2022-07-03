@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/matrix-profile-foundation/go-matrixprofile/siggen"
-	"github.com/matrix-profile-foundation/go-matrixprofile/util"
+	"github.com/mohamed-adly/go-matrixprofile/siggen"
+	"github.com/mohamed-adly/go-matrixprofile/util"
 	"gonum.org/v1/gonum/dsp/fourier"
 )
 

@@ -28,10 +28,7 @@ func createPlot(pts []plotter.XYs, labels []string, title string) (*plot.Plot, e
 		return nil, fmt.Errorf("number of XYs, %d, does not match number of labels, %d", len(pts), len(labels))
 	}
 
-	p, err := plot.New()
-	if err != nil {
-		return p, err
-	}
+	p := plot.New()
 
 	p.Title.Text = title
 	for i := 0; i < len(pts); i++ {
@@ -47,7 +44,7 @@ func createPlot(pts []plotter.XYs, labels []string, title string) (*plot.Plot, e
 			p.Legend.Add(labels[i], line)
 		}
 	}
-	return p, err
+	return p, nil
 }
 
 func plotMP(sigPts, mpPts plotter.XYs, motifPts [][]plotter.XYs, discordPts []plotter.XYs, discordLabels []string, filename string) error {

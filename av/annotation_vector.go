@@ -8,7 +8,7 @@ import (
 	"gonum.org/v1/gonum/floats"
 	"gonum.org/v1/gonum/stat"
 
-	"github.com/matrix-profile-foundation/go-matrixprofile/util"
+	"github.com/mohamed-adly/go-matrixprofile/util"
 )
 
 type AV string

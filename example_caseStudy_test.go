@@ -3,7 +3,7 @@ package matrixprofile
 import (
 	"fmt"
 
-	"github.com/matrix-profile-foundation/go-matrixprofile/siggen"
+	"github.com/mohamed-adly/go-matrixprofile/siggen"
 )
 
 func Example_caseStudy() {

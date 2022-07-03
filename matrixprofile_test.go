@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/matrix-profile-foundation/go-matrixprofile/av"
+	"github.com/mohamed-adly/go-matrixprofile/av"
 	"gonum.org/v1/gonum/dsp/fourier"
 )
 

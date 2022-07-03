@@ -1,6 +1,6 @@
 goos: darwin
 goarch: amd64
-pkg: github.com/matrix-profile-foundation/go-matrixprofile
+pkg: github.com/mohamed-adly/go-matrixprofile
 BenchmarkMStomp-4                     	      39	  29853485 ns/op	 7336245 B/op	  227071 allocs/op
 BenchmarkZNormalize-4                 	 7112282	       185 ns/op	     256 B/op	       1 allocs/op
 BenchmarkMovmeanstd-4                 	   89810	     13628 ns/op	   32768 B/op	       4 allocs/op
@@ -23,10 +23,10 @@ BenchmarkMpx/m128_p4_pts_16384-4      	       4	 327366290 ns/op	 2237776 B/op	 
 BenchmarkMpx/m1024_p2_pts_16384-4     	       4	 330582811 ns/op	 1737584 B/op	      33 allocs/op
 BenchmarkUpdate-4                     	      80	  13849082 ns/op	  795065 B/op	      18 allocs/op
 PASS
-ok  	github.com/matrix-profile-foundation/go-matrixprofile	36.122s
+ok  	github.com/mohamed-adly/go-matrixprofile	36.122s
 PASS
-ok  	github.com/matrix-profile-foundation/go-matrixprofile/av	0.006s
+ok  	github.com/mohamed-adly/go-matrixprofile/av	0.006s
 PASS
-ok  	github.com/matrix-profile-foundation/go-matrixprofile/siggen	0.006s
+ok  	github.com/mohamed-adly/go-matrixprofile/siggen	0.006s
 PASS
-ok  	github.com/matrix-profile-foundation/go-matrixprofile/util	0.006s
+ok  	github.com/mohamed-adly/go-matrixprofile/util	0.006s
